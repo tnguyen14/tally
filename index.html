@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <title>Tally</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>Tally</h1>
+      <p class="sub">Counters are saved in this browser only.</p>
+      <ul id="list"></ul>
+      <form id="add" class="add">
+        <input
+          id="name"
+          type="text"
+          placeholder="New counter name"
+          autocomplete="off"
+          aria-label="New counter name"
+        />
+        <button type="submit">Add counter</button>
+      </form>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
